@@ -1,0 +1,32 @@
+# Node.js dependencies
+**/node_modules/
+
+# Build and compiled files
+**/dist/
+**/build/
+*.min.js
+*.min.css
+
+# Environment files
+.env
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# npm and Yarn lock files
+**/package-lock.json
+yarn.lock
+
+# Backup files
+*.bak
+*.swp
+.DS_Store
